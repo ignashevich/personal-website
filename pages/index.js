@@ -1,8 +1,14 @@
 import React from "react";
 import Head from "../components/utils/Head";
 import Home from "./home";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
+
+import dynamic from 'next/dynamic'
+
+const Header = dynamic(
+    () => import('../components/Header'),
+    { ssr: false }
+)
 
 
 export default function Index() {

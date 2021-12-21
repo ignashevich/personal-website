@@ -24,7 +24,7 @@ const Home = () => {
                         - Tulips online shop (<a rel="noreferrer" target="_blank" className="text-blue-500 hover:text-blue-400" href="https://tulpan-mart.by">tulpan-mart.by</a>)
                     </li>
                     <li>
-                        - Landing page for the game (<a rel="noreferrer" target="_blank" className="text-blue-500 hover:text-blue-400" href="https://catellite.space">catellite.com</a>)
+                        - Landing page for the game (<a rel="noreferrer" target="_blank" className="text-blue-500 hover:text-blue-400" href="https://catellite.space">catellite.space</a>)
                     </li>
                 </ul>
             </div>

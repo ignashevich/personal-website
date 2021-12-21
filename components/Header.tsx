@@ -14,7 +14,6 @@ const Header = () => {
     return (
         <header className="grid p-5">
             <Toggle
-
                 className="justify-self-end scale-125 sm:scale-150 night-mode-toggle"
                 icons={ {
                     checked: <div className="relative top-2/4 -left-1 ">🌚</div>,
