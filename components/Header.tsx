@@ -21,8 +21,8 @@ const Header = () => {
 
                 className="justify-self-end scale-125 sm:scale-150 night-mode-toggle"
                 icons={ {
-                    checked: <div className="relative top-1.5 sm:-left-1 sm:top-1">🌚</div>,
-                    unchecked: <div className="relative top-1.5  sm:top-1 sm:right-1">🌝</div>,
+                    checked: <div className="relative top-2/4 -left-1 ">🌚</div>,
+                    unchecked: <div className="relative top-2/4  right-1/4">🌝</div>,
                 } }
                 checked={ isDarkModeEnabled.get() }
                 onChange={ onToggle }/>

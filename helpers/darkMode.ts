@@ -16,7 +16,7 @@ export class DarkMode {
     static isEnabled() {
         // @ts-ignore
         if (window !== 'undefined') {
-            return localStorage.theme === 'dark';
+            return document.documentElement.classList.contains('dark');
         }
     }
 
