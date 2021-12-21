@@ -4,7 +4,7 @@ import { DarkMode } from '../helpers/darkMode';
 import { useValue } from '../helpers/useValue';
 
 const Header = () => {
-    const isDarkModeEnabled = useValue(DarkMode.isEnabled());
+    const isDarkModeEnabled = useValue(DarkMode.isEnabled);
 
     const onToggle = () => {
         isDarkModeEnabled.get() ? DarkMode.off() : DarkMode.on();
