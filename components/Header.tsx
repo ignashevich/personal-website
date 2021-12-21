@@ -4,16 +4,12 @@ import { DarkMode } from '../helpers/darkMode';
 import { useValue } from '../helpers/useValue';
 
 const Header = () => {
-    const isDarkModeEnabled = useValue(false);
+    const isDarkModeEnabled = useValue(DarkMode.isEnabled());
 
     const onToggle = () => {
         isDarkModeEnabled.get() ? DarkMode.off() : DarkMode.on();
         isDarkModeEnabled.set(!isDarkModeEnabled.get());
     };
-
-    useLayoutEffect(() => {
-        isDarkModeEnabled.set(DarkMode.isEnabled());
-    }, []);
 
     return (
         <header className="grid p-5">
