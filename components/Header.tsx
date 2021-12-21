@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from 'react';
+import React, { useLayoutEffect } from 'react';
 import Toggle from 'react-toggle';
 import { DarkMode } from '../helpers/darkMode';
 import { useValue } from '../helpers/useValue';
