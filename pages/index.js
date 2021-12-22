@@ -15,7 +15,7 @@ export default function Index() {
   return (
       <>
           <Head/>
-          <div className="h-full flex flex-col">
+          <div className="h-full flex flex-col container mx-auto">
               <Header/>
               <Home/>
               <Footer/>
