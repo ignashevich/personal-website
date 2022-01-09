@@ -4,7 +4,6 @@ import { DarkMode } from '../helpers/darkMode';
 import { useValue } from '../helpers/useValue';
 import { useRouter } from 'next/router';
 import cx from 'classnames';
-import '@animated-burgers/burger-slide/dist/styles.css';
 import DarkModeToggle from '../components/DarkModeToggle';
 import { Sling as Hamburger } from 'hamburger-react';
 
