@@ -15,8 +15,8 @@ const DarkModeToggle = ({className, value}) => {
             <Toggle
                 className="align-self-start scale-150 night-mode-toggle"
                 icons={ {
-                    checked: <div className="relative top-2/4 -left-1 ">🌚</div>,
-                    unchecked: <div className="relative top-2/4  right-1/4">🌝</div>,
+                    checked: <div className="relative top-2/4 dark-mode-icon -left-1 ">🌚</div>,
+                    unchecked: <div className="relative top-2/4 dark-mode-icon right-1/4">🌝</div>,
                 } }
                 checked={ value.get() }
                 onChange={ onToggle }/>

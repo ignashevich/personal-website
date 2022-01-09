@@ -15,27 +15,15 @@ body {
     }
 }
 
-
-
 * {
     box-sizing: border-box;
     @apply transition-colors duration-75 ease-out;
-}
-
-body {
-    .burger .burger-lines,
-    .burger .burger-lines:after,
-    .burger .burger-lines:before { background-color: black; }
 }
 
 .dark {
     body {
         background-color: black;
         color: white;
-
-        .burger .burger-lines,
-        .burger .burger-lines:after,
-        .burger .burger-lines:before { background-color: white; }
     };
 }
 
@@ -58,6 +46,11 @@ body {
     }
     .react-toggle-track {
         background-color: black;
+    }
+    .dark-mode-icon {
+        width: 15px;
+        max-width: 15px;
+        min-width: 15px;
     }
 }
 
