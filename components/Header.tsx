@@ -8,6 +8,7 @@ import cx from 'classnames';
 import Burger from '@animated-burgers/burger-slide';
 import '@animated-burgers/burger-slide/dist/styles.css';
 import DarkModeToggle from '../components/DarkModeToggle';
+import { Sling as Hamburger } from 'hamburger-react'
 
 
 const Header = () => {
@@ -46,7 +47,7 @@ const Header = () => {
 
             <DarkModeToggle value={isDarkModeEnabled} className="hidden lg:block"/>
             <button className="block lg:hidden z-20" onClick={ () => setIsBurgerOpened(v => !v) }>
-                <Burger isOpen={ isBurgerOpened }/>
+                <Hamburger size={42} toggled={ isBurgerOpened }/>
             </button>
         </header>
     );
