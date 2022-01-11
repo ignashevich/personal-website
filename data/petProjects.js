@@ -1,7 +1,7 @@
 export const petProjects = [
     {
-        name: "Mouse following RGB particles",
-        previewLink: "https://editor.p5js.org/ignashevich/full/oRNYhw1jf",
+        name: "p5 Sketches",
+        previewLink: "https://p5-sketches-sigma.vercel.app/",
         imgLink: "https://firebasestorage.googleapis.com/v0/b/personal-website-80dde.appspot.com/o/rgb-particle.png?alt=media"
     },
     {
