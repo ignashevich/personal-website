@@ -1,6 +1,8 @@
 import React from 'react';
 import {DarkMode} from "../helpers/darkMode";
-import Toggle from 'react-toggle';
+import Toggle from 'react-switch';
+import Moon from './moon.svg';
+import Sun from './sun.svg';
 
 
 const DarkModeToggle = ({className, value}) => {
@@ -13,13 +15,19 @@ const DarkModeToggle = ({className, value}) => {
     return (
         <div className={className}>
             <Toggle
-                className="align-self-start scale-150 night-mode-toggle"
-                icons={ {
-                    checked: <div className="relative top-2/4 dark-mode-icon -left-1 ">🌚</div>,
-                    unchecked: <div className="relative top-2/4 dark-mode-icon right-1/4">🌝</div>,
-                } }
-                checked={ value.get() }
-                onChange={ onToggle }/>
+                className="react-switch"
+                onChange={onToggle}
+                checked={value.get()}
+                checkedIcon={<div className="text-3xl h-full grid place-content-center"><Moon className="w-9"/></div>}
+                uncheckedIcon={<div className="text-3xl h-full grid place-content-center"><Sun className="w-9"/></div>}
+                offColor="#000"
+                onColor="#fff"
+                offHandleColor="#fff"
+                onHandleColor="#000"
+                height={40}
+                width={80}
+                handleDiameter={29}
+            />
         </div>
     );
 };

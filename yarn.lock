@@ -2,18 +2,6 @@
 # yarn lockfile v1
 
 
-"@animated-burgers/burger-slide@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@animated-burgers/burger-slide/-/burger-slide-1.1.2.tgz#9a1ecbe646ae40da1cfd72a75e4f623093d817a7"
-  integrity sha512-Q8ZVuLyvqd+6H9auAzaLTXo2w5JbMSln4kqhv0mYBxlqC11IrbAzkPJsI9pTEDarn1L/r+j+5b0cBtyFXdpN7g==
-  dependencies:
-    "@animated-burgers/burger" "^1.1.2"
-
-"@animated-burgers/burger@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@animated-burgers/burger/-/burger-1.1.2.tgz#a75f7147f9d4041b8bfd510e0097a1500c4fa009"
-  integrity sha512-hErU9dlOcEeYbmbhhngBMXSDtqOaXfFEnKoodfs6vCFWD8dVLMNVbFFpZ0eV7/Wa9kKTGLPeLtDeP0vWYAcY7w==
-
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -3891,6 +3879,13 @@ react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
+
+react-switch@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/react-switch/-/react-switch-6.0.0.tgz#bd4a2dea08f211b8a32e55e8314fd44bc1ec947e"
+  integrity sha512-QV3/6eRK5/5epdQzIqvDAHRoGLbCv/wDpHUi6yBMXY1Xco5XGuIZxvB49PHoV1v/SpEgOCJLD/Zo43iic+aEIw==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-toggle@^4.1.2:
   version "4.1.2"

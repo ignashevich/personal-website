@@ -44,7 +44,7 @@ const Header = () => {
 
             <DarkModeToggle value={ isDarkModeEnabled } className="hidden lg:block"/>
             <button className="block lg:hidden z-20" onClick={ () => setIsBurgerOpened(v => !v) }>
-                <Hamburger duration={0} size={ 42 } toggled={ isBurgerOpened }/>
+                <Hamburger size={ 42 } toggled={ isBurgerOpened }/>
             </button>
         </header>
     );

@@ -6,7 +6,7 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            sans: ['Readex Pro', 'sans-serif'],
+            sans: ['Ubuntu Mono', 'sans-serif'],
         },
         extend: {},
     },
