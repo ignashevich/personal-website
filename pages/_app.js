@@ -1,5 +1,4 @@
 import '../styles/globals.scss'
-import "react-toggle/style.css"
 import Head from "../components/utils/Head";
 import React from "react";
 import Footer from "../components/Footer";
